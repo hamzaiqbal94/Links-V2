@@ -4,7 +4,7 @@
 body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #424242;
+    color: #fdfdfd;
     padding: 0px;
     width: 100%;
 
@@ -19,8 +19,8 @@ h2 {
 }
 
 h3 {
-    color: aliceblue;
-    font-size: 20px;
+    color: rgb(90, 90, 90);
+    font-size: 16px;
 }
 
 h5{
@@ -43,7 +43,7 @@ p{
 h4{
     position: absolute;
     color: #ffffff;
-    opacity: 70%;
+    opacity: 100%;
     font-size: 90px;
     z-index: 10;
     font-family: 'Lato', sans-serif ;
@@ -65,27 +65,34 @@ ul {
 }
 
 figure.image-block{
-    border-color: #424242;
     border-width: 2px;
-    border-radius: 20px;
-    overflow: hidden;
 }
 
 figure.link-block{
-    background: #424242;
+    background: #cbcbcb;
     border-radius: 20px;
 }
 
 
 
 figure.text-block{
-    background: #424242;
+    background: #8a8a8a;
     border-radius: 20px;
 }
 
 li{
-    background: #424242;
     border-radius: 20px;
+    border-width: 2px;
+    border-color: #8a8a8a;
+    padding: 5px;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    
+}
+
+ul.image-blocks {
+    align: center;
 }
 
 img.image{
@@ -94,7 +101,8 @@ img.image{
 }
 
 @media (min-width: 600px) {
-	ul { --columns: 3; }
+	ul { --columns: 6; }
+
 }
 
 .landing{
@@ -142,10 +150,9 @@ img.image{
     filter: saturate(40%);
     object-fit: cover;
     object-position: top right;
-    width: 30vh;
+    width: 30vw;
     height: auto;
-    max-height: 10vh;
-    border-radius: 20px;
+   
 }
 
 .image-block img:hover{
@@ -163,6 +170,6 @@ section,
 ul,
 figure {
 	display: grid;
-	gap: 2em;
+	
 }
 
