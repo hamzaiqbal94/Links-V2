@@ -13,6 +13,21 @@ h1{
     color: #CD212A;
 }
 
+h3 {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+p.link-title{
+    color: aliceblue;
+    font-size: 20px;  
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;  
+}
+
 
 
 h4{
@@ -36,13 +51,37 @@ ul {
 
 	display: grid;
 	grid-template-columns: repeat(var(--columns), 1fr);
-    padding: -20px;
+    width: 90%;
 }
 
+figure.image-block{
+    background: #424242;
+    border-radius: 20px;
+}
+
+figure.link-block{
+    background: #424242;
+    border-radius: 20px;
+}
+
+
+
+figure.text-block{
+    background: #424242;
+    border-radius: 20px;
+}
+
+li{
+    background: #424242;
+    border-radius: 20px;
+}
 
 @media (min-width: 600px) {
 	ul { --columns: 3; }
 }
+
+
+
 
 .background{
     background-color: rgb(15, 15, 15);
