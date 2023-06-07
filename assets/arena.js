@@ -1,4 +1,3 @@
-// The Description is returned as Markdown, of course.
 let markdownIt = document.createElement('script')
 markdownIt.src = 'https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.3.2/markdown-it.min.js'
 document.head.appendChild(markdownIt)
@@ -32,7 +31,6 @@ const setBasics = (data) => {
 				'link',
 			]
 
-			// This could be a function, with the one below.
 			elements = Object.assign({},
 				...elements.map(string => ({
 					[string]: template.querySelectorAll(`.${string.replace(/[A-Z]/g, "-$&").toLowerCase()}`)
