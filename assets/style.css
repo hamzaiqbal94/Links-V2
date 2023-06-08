@@ -32,7 +32,6 @@ h4{
     color: #ffffff;
     opacity: 100%;
     font-size: 90px;
-    z-index: 10;
     font-family: 'Lato', sans-serif ;
     font-weight: 900;
 }
@@ -56,6 +55,12 @@ h6 {
 
 }
 
+p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 650px;
+}
+
 p1{
     color:#F4F9ff;
     font-size: 65px;
@@ -68,11 +73,14 @@ p2{
 
 }
 
+p3{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
 
-p.link-title{
-    color: aliceblue;
-    font-size: 20px;  
 }
+
+
 
 p{
     color: aliceblue;
@@ -95,26 +103,44 @@ ul {
 
 	display: grid;
 	grid-template-columns: repeat(var(--columns), 1fr);
-    width: 90%;
+ 
 }
 
 figure.image-block{
     border-width: 2px;
 }
 
+figure.text-block{
+    padding-top: 20px;
+}
+
 figure.link-block{
+}
+
+.video-embed-block{
+    width: 200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    grid-gap: 10px;
+    padding: 10px;
+  
 }
 
 p.link-title{
     color: #F4F9ff;
-    font-size: 20px;
-    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 170%;
+    text-decoration: underline
+    
 }
 
 
+
 figure.text-block{
-    background: #8a8a8a;
-    border-radius: 20px;
+
 }
 
 
@@ -147,12 +173,18 @@ figure.text-block{
     margin-left: 30px;
     padding-bottom: 80px;
     background-color:#F4F9ff;
+    
 }
 
 
 .linkssection{
+    margin-top: 0px;
     margin-left: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+    align-content: center;
+
+
+
 
 }
 .videosection{
@@ -166,16 +198,16 @@ figure.text-block{
 }
 
 
+
+
 .embed {
     width: 100px;
     border-radius: 8px;
     margin-left: 30px;
 }
 
-@media (min-width: 600px) {
-	ul { --columns: 8; }
 
-}
+
 
 .landing{
     background-color: #CD212A;
@@ -227,7 +259,7 @@ figure.text-block{
 .content2{
     background-color: #008c45;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
 
 }
 
@@ -241,7 +273,7 @@ figure.text-block{
 .content4{
     background-color: #CD212A;
     width: 100vw;
-    height: 100vh;
+    height: 260vh;
 
 }
 
@@ -264,3 +296,27 @@ figure {
 	
 }
 
+	.image-blocks { --columns: 8; }
+    .link-blocks { --columns: 1; }
+    .video-embed-blocks { --columns: 3; }
+    .text-blocks { --columns: 1; }
+
+
+@media (max-width: 400px ) {
+    .image-blocks { --columns: 4; }
+    .link-blocks { --columns: 1; }
+    .video-embed-blocks { --columns: 1; }
+    .text-blocks { --columns: 1; }
+
+    .image{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 6px;
+        
+
+}
