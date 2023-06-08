@@ -106,6 +106,7 @@ ul {
  
 }
 
+
 figure.image-block{
     border-width: 2px;
 }
@@ -181,7 +182,7 @@ figure.text-block{
     margin-top: 0px;
     margin-left: 30px;
     padding-bottom: 50px;
-    align-content: center;
+    align-content: top;
 
 
 
@@ -273,7 +274,7 @@ figure.text-block{
 .content4{
     background-color: #CD212A;
     width: 100vw;
-    height: 260vh;
+    height: 230vh;
 
 }
 
@@ -298,7 +299,7 @@ figure {
 
 	.image-blocks { --columns: 8; }
     .link-blocks { --columns: 1; }
-    .video-embed-blocks { --columns: 3; }
+    .video-embed-blocks { --columns: 1; }
     .text-blocks { --columns: 1; }
 
 
