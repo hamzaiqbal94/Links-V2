@@ -315,6 +315,9 @@ figure {
 
 
 @media (max-width: 500px ) {
+
+        
+      
     .image-blocks { --columns: 2; }
     .link-blocks { --columns: 1; }
     .video-embed-blocks { --columns: 1; }
