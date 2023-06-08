@@ -115,12 +115,11 @@ figure.text-block{
     padding-left: 0px;
     padding-right: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;xs
+    padding-bottom: 20px;
     
 }
 
-figure.link-block{
-}
+
 
 .video-embed-block{
     width: 200px;
@@ -144,14 +143,11 @@ p.link-title{
 
 
 
-figure.text-block{
 
-}
 
 
 
 .image-block {
-    align: center;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 30px;
@@ -192,7 +188,6 @@ figure.text-block{
     margin-top: 0px;
     margin-left: 30px;
     padding-bottom: 50px;
-    align-content: top;
 
 
 
@@ -310,15 +305,22 @@ figure {
 
 	.image-blocks { --columns: 8; }
     .link-blocks { --columns: 1; }
-    .video-embed-blocks { --columns: 1; }
+    .video-embed-blocks { --columns: 3; }
     .text-blocks { --columns: 2; }
+
+
+    .embedly-embed{
+        width: 400px;
+        height: 250px;
+        border-radius: 6px;
+ }
 
 
 @media (max-width: 500px ) {
 
         
       
-    .image-blocks { --columns: 2; }
+    .image-blocks { --columns: 3; }
     .link-blocks { --columns: 1; }
     .video-embed-blocks { --columns: 1; }
     .text-blocks { --columns: 1; }
@@ -332,19 +334,57 @@ figure {
         margin-left: 5px;
         margin-right: 5px;
         border-radius: 6px;
-        
-        .landing-text{
+    }
+
+    .landing-text{
             margin-top: 50px;
             margin-left: 10px;
             margin-right: 10px;
             
         }
-        h2{
-            margin: 0;
+
+
+        h1{
+            margin-top: 30px;
+            margin-left: 10px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+
         }
 
-        h4{
-    font-size: 20px;
+        p1{
+        font-size: 40px;
+        font-weight: 300px;
+        }
+
+        p2{
+            margin-top: 30px;
+            margin-left: 10px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+
+        h2{
+            margin-top: 30px;
+            margin-left: 10px;
+            margin-right: 30px;
+
+        }
+
+
+    h3{
+        font-size: 40px;
+        font-weight: 300px;
+    }
+
+    h4{
+    font-size: 50px;
+    font-weight: 400;
+    }
+
+    h5{
+    margin-top: 130px;
+
         }
 h6{
     display: none;
@@ -357,5 +397,37 @@ h6{
     margin-right: 10px;
 }
 
+.content2{
+    height: 185vh;
+}
 
+.linkssection{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 497px;
+}
+
+.content3{
+    height: 165vh;
+}
+
+
+
+.videosection{
+    padding-right:500px;
+}
+
+.embedly-embed{
+    width: 310px;
+    height: 200px;
+    border-radius: 6px;
+
+}
+
+.content4{
+    height: 665vh;
+}
+
+.text-blocks{
+    margin-right: 500px;
 }
