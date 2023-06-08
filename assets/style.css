@@ -12,7 +12,6 @@ body{
 
 h1{
     color:#CD212A;
-    margin-top: 10px;
     
 
 }
@@ -144,6 +143,27 @@ figure.text-block{
     
 }
 
+.imagesection{
+    margin-left: 30px;
+    padding-bottom: 80px;
+    background-color:#F4F9ff;
+}
+
+
+.linkssection{
+    margin-left: 30px;
+    padding-bottom: 80px;
+
+}
+.videosection{
+    padding-bottom: 80px;
+    background-color:#F4F9ff;
+}
+
+.notessection{
+    margin-left: 30px;
+    padding-bottom: 80px;
+}
 
 
 .embed {
