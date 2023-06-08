@@ -69,6 +69,7 @@ p1{
 p2{
     color: #ffffff;
     margin-top: 10px;
+    width: 390px;
 
 
 }
@@ -360,7 +361,6 @@ figure {
 
         p2{
             margin-top: 30px;
-            margin-left: 10px;
             margin-right: 30px;
             margin-bottom: 30px;
         }
@@ -395,6 +395,9 @@ h6{
     display: none;
 }
 
+p.link-title{
+    margin-right: 235px;
+}
 
 .section1text{
     margin-top: 50px;
@@ -410,6 +413,7 @@ h6{
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 497px;
+    width: 100vw;
 }
 
 .content3{
@@ -419,8 +423,33 @@ h6{
 
 
 .videosection{
-    padding-right:500px;
+    width: 100vw;
 }
+
+.section4text{
+    width: 100vw;
+
+}
+
+.section2text{
+    width: 100vw;
+
+}
+
+.section3text{
+    width: 100vw;
+
+}
+.section1text{
+    width: 100vw;
+
+}
+
+.notessection{
+    width: 100vw;
+
+}
+
 
 .embedly-embed{
     width: 310px;
@@ -430,7 +459,7 @@ h6{
 }
 
 .content4{
-    height: 665vh;
+    height: 565vh;
 }
 
 .text-blocks{
