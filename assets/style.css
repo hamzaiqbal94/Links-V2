@@ -58,7 +58,6 @@ h6 {
 p{
     font-size: 20px;
     font-weight: 300;
-    margin-right: 650px;
 }
 
 p1{
@@ -70,6 +69,7 @@ p1{
 p2{
     color: #ffffff;
     margin-top: 10px;
+
 
 }
 
@@ -112,7 +112,11 @@ figure.image-block{
 }
 
 figure.text-block{
+    padding-left: 0px;
+    padding-right: 30px;
     padding-top: 20px;
+    padding-bottom: 20px;xs
+    
 }
 
 figure.link-block{
@@ -122,12 +126,12 @@ figure.link-block{
     width: 200px;
     height: auto;
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
     grid-gap: 10px;
     padding: 10px;
   
 }
+
+
 
 p.link-title{
     color: #F4F9ff;
@@ -167,13 +171,19 @@ figure.text-block{
     border-radius: 6px;
     
     
-    
 }
+
+.image:hover{
+    transform: scale(1.25);
+}
+
 
 .imagesection{
     margin-left: 30px;
+    margin-right: 30px;
     padding-bottom: 80px;
     background-color:#F4F9ff;
+    
     
 }
 
@@ -245,6 +255,7 @@ figure.text-block{
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 650px;
+
 }
 
 
@@ -274,7 +285,7 @@ figure.text-block{
 .content4{
     background-color: #CD212A;
     width: 100vw;
-    height: 230vh;
+    height: 200vh;
 
 }
 
@@ -300,24 +311,48 @@ figure {
 	.image-blocks { --columns: 8; }
     .link-blocks { --columns: 1; }
     .video-embed-blocks { --columns: 1; }
-    .text-blocks { --columns: 1; }
+    .text-blocks { --columns: 2; }
 
 
-@media (max-width: 400px ) {
-    .image-blocks { --columns: 4; }
+@media (max-width: 500px ) {
+    .image-blocks { --columns: 2; }
     .link-blocks { --columns: 1; }
     .video-embed-blocks { --columns: 1; }
     .text-blocks { --columns: 1; }
 
     .image{
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         object-fit: cover;
-        margin-top: 40px;
+        margin-top: 5px;
         margin-bottom: 0px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         border-radius: 6px;
         
+        .landing-text{
+            margin-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+        h2{
+            margin: 0;
+        }
+
+        h4{
+    font-size: 20px;
+        }
+h6{
+    display: none;
+}
+
+
+.section1text{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 }
