@@ -13,6 +13,7 @@ body{
 h1{
     color:#CD212A;
     margin-top: 10px;
+    
 
 }
 
@@ -126,6 +127,7 @@ figure.text-block{
     margin-left: 30px;
     margin-right: 10px;
     
+    
 }
 
 .image{
@@ -140,6 +142,14 @@ figure.text-block{
     
     
     
+}
+
+
+
+.embed {
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 30px;
 }
 
 @media (min-width: 600px) {
@@ -184,10 +194,13 @@ figure.text-block{
     margin-right: 650px;
 }
 
+
+
 .content1{
     background-color: #F4F9ff;
     width: 100vw;
     height: 100vh;
+    
 
 }
 
