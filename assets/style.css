@@ -345,20 +345,24 @@ figure {
 
 
         h1{
+            padding-bottom: 30px;
            
 
         }
 
         p1{
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 300px;
+        padding-bottom: 10px;
+
+
       
         }
 
         p2{
             margin-top: 30px;
             padding-right: 60px;
-            margin-bottom: 30px;
+            padding-bottom: 30px;
             width: 390px;
 
         }
@@ -374,10 +378,10 @@ figure {
 
 
     h3{
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 300px;
         margin-right: 30px;
-        margin-left: 30px;
+        
     }
 
     h4{
@@ -400,7 +404,7 @@ h6{
 }
 
 p.link-title{
-    margin-right: 94px;
+    margin-right: 17px;
 }
 
 
@@ -411,7 +415,7 @@ p.link-title{
 }
 
 .content2{
-    height: 185vh;
+    height: 145vh;
     max-width: 390px;
     
 }
@@ -424,7 +428,7 @@ p.link-title{
 }
 
 .content3{
-    height: 165vh;
+    height: 115vh;
     max-width: 390px;
    
 }
@@ -455,7 +459,7 @@ p.link-title{
 }
 
 .notessection{
-    width: 100vw;
+   width: 330px;
 
 }
 
