@@ -69,7 +69,6 @@ p1{
 p2{
     color: #ffffff;
     margin-top: 10px;
-    width: 390px;
 
 
 }
@@ -281,7 +280,7 @@ p.link-title{
 .content4{
     background-color: #CD212A;
     width: 100vw;
-    height: 110vh;
+    height: 115vh;
 
 }
 
@@ -346,10 +345,7 @@ figure {
 
 
         h1{
-            margin-top: 30px;
-            margin-left: 30px;
-            margin-right: 30px;
-            margin-bottom: 30px;
+           
 
         }
 
@@ -361,14 +357,18 @@ figure {
 
         p2{
             margin-top: 30px;
-            margin-right: 30px;
+            padding-right: 60px;
             margin-bottom: 30px;
+            width: 390px;
+
         }
 
         h2{
             margin-top: 30px;
             margin-left: 30px;
             margin-right: 30px;
+            max-width: 390px;
+  
 
         }
 
@@ -384,11 +384,15 @@ figure {
     font-size: 45px;
     font-weight: 400;
     margin-left: 30px;
+    max-width: 390px;
+ 
     }
 
     h5{
     margin-top: 110px;
     margin-left: 30px;
+    max-width: 390px;
+ 
 
         }
 h6{
@@ -396,52 +400,57 @@ h6{
 }
 
 p.link-title{
-    margin-right: 235px;
+    margin-right: 94px;
 }
+
+
 
 .section1text{
     margin-top: 50px;
-    margin-left: 10px;
     margin-right: 10px;
 }
 
 .content2{
     height: 185vh;
+    max-width: 390px;
+    
 }
 
 .linkssection{
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 497px;
-    width: 100vw;
+    width: 330px;
 }
 
 .content3{
     height: 165vh;
+    max-width: 390px;
+   
 }
 
 
 
 .videosection{
-    width: 100vw;
+    width: 330px;
 }
 
 .section4text{
-    width: 100vw;
+    width: 330px;
 
 }
 
 .section2text{
-    width: 100vw;
+    width: 300px;
 
 }
 
 .section3text{
-    width: 100vw;
+    width: 330px;
 
 }
 .section1text{
-    width: 100vw;
+    width: 330px;
 
 }
 
@@ -460,6 +469,14 @@ p.link-title{
 
 .content4{
     height: 565vh;
+    max-width: 390px;
+    
+}
+
+.content1{
+    max-width: 390px;
+    
+
 }
 
 .text-blocks{
