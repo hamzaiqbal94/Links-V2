@@ -7,6 +7,7 @@ body{
     color: #fdfdfd;
     padding: 0px;
     width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -488,5 +489,14 @@ p.link-title{
 
 }
 
+figure.text-block{
+
+    padding-right: 0px;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
 
 }
