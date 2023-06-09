@@ -113,7 +113,6 @@ figure.image-block{
 
 figure.text-block{
     padding-left: 0px;
-    padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -137,9 +136,12 @@ p.link-title{
     font-size: 18px;
     font-weight: 300;
     line-height: 170%;
-    text-decoration: underline
+    text-decoration: underline;
+    padding-top: 3px;
+
     
 }
+
 
 
 
@@ -404,6 +406,7 @@ h6{
 }
 
 p.link-title{
+    font-size: 14px;
     margin-right: 17px;
 }
 
@@ -472,7 +475,7 @@ p.link-title{
 }
 
 .content4{
-    height: 465vh;
+    height: 310vh;
     max-width: 390px;
     
 }
@@ -483,7 +486,5 @@ p.link-title{
 
 }
 
-.text-blocks{
-    margin-right: 500px;
-}
+
 }
