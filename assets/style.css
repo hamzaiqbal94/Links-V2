@@ -239,22 +239,30 @@ p.link-title{
 .section1text{
     margin-top: 30px;
     margin-left: 30px;
+    margin-right: 50vw;
+
 }
 
 .section2text{
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+    margin-right: 50vw;
+
 }
 
 .section3text{
     margin-top: 30px;
     margin-left: 30px;
+    margin-right: 50vw;
+
 }
 
 .section4text{
     margin-top: 30px;
     margin-left: 30px;
+    margin-right: 50vw;
+
 
 }
 
@@ -442,16 +450,22 @@ p.link-title{
 
 .section4text{
     width: 330px;
+    margin-right: 10px;
+
 
 }
 
 .section2text{
     width: 300px;
+    margin-right: 10px;
+
 
 }
 
 .section3text{
     width: 330px;
+    margin-right: 10px;
+
 
 }
 .section1text{
